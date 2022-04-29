@@ -18,7 +18,7 @@ export default class Form extends React.Component {
                     <input type="checkbox" className="form-check-input" id="exampleCheck"/>
                     <label className="form-check-label" for="exampleCheck">Check me out!</label>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-warning" id="submitButton">Submit</button>
             </form>
         );
     }

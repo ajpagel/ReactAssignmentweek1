@@ -36,14 +36,26 @@
     transform: rotate(360deg);
   }
 }
-.container-fluid{
-  background-color: grey;
-}
+
 
 h3 {
   padding-top: 20px;
 }
 
-button :hover{
-  background-color: red;
+.btn {
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+#submitButton:hover{
+  background-color: blueviolet;
+}
+
+body {
+  background-color:  #282c34;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
 }
